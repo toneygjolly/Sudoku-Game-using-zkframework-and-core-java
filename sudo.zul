@@ -1,0 +1,114 @@
+	<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+	<zk>
+	<window title="sudoku Game" border="normal" style="background-color: yellow;" apply="SUDO.checkingsudo">
+	<hbox>
+	
+	<textbox id="b1" width="50px" height="30px"  maxlength="1"></textbox> 
+	<textbox id="b2" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b3" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	<textbox id="b4" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b5" width="50px" height="30px" maxlength="1"></textbox> 
+	<textbox id="b6" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	<textbox id="b7" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b8" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b9" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	</hbox>
+	<hbox>
+	<textbox id="b11" width="50px" height="30px" maxlength="1"></textbox> 
+	<textbox id="b12" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b13" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	<textbox id="b14" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b15" width="50px" height="30px" maxlength="1"></textbox> 
+	<textbox id="b16" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	<textbox id="b17" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b18" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b19" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	</hbox>
+	<hbox>
+	<textbox id="b21" width="50px" height="30px" maxlength="1"></textbox> 
+	<textbox id="b22" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b23" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	<textbox id="b24" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b25" width="50px" height="30px" maxlength="1"></textbox> 
+	<textbox id="b26" width="50px" height="30px" maxlength="1"></textbox><space></space>
+	<textbox id="b27" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b28" width="50px" height="30px" maxlength="1"></textbox>
+	<textbox id="b29" width="50px" height="30px" maxlength="1"></textbox>
+	</hbox>
+	<separator></separator>
+	<separator></separator>
+	<hbox>
+	
+	<textbox id="c1" width="50px" height="30px" ></textbox> 
+	<textbox id="c2" width="50px" height="30px" ></textbox>
+	<textbox id="c3" width="50px" height="30px" ></textbox><space></space>
+	<textbox id="c4" width="50px" height="30px" ></textbox>
+	<textbox id="c5" width="50px" height="30px" ></textbox> 
+	<textbox id="c6" width="50px" height="30px" ></textbox><space></space>
+	<textbox id="c7" width="50px" height="30px" ></textbox>
+	<textbox id="c8" width="50px" height="30px" ></textbox>
+	<textbox id="c9" width="50px" height="30px" ></textbox><space></space>
+	</hbox>
+	<hbox>
+	<textbox id="c11" width="50px" height="30px"></textbox> 
+	<textbox id="c12" width="50px" height="30px"></textbox>
+	<textbox id="c13" width="50px" height="30px"></textbox><space></space>
+	<textbox id="c14" width="50px" height="30px"></textbox>
+	<textbox id="c15" width="50px" height="30px"></textbox> 
+	<textbox id="c16" width="50px" height="30px"></textbox><space></space>
+	<textbox id="c17" width="50px" height="30px"></textbox>
+	<textbox id="c18" width="50px" height="30px"></textbox>
+	<textbox id="c19" width="50px" height="30px"></textbox><space></space>
+	</hbox>
+	<hbox>
+	<textbox id="c21" width="50px" height="30px"></textbox> 
+	<textbox id="c22" width="50px" height="30px"></textbox>
+	<textbox id="c23" width="50px" height="30px"></textbox><space></space>
+	<textbox id="c24" width="50px" height="30px"></textbox>
+	<textbox id="c25" width="50px" height="30px"></textbox> 
+	<textbox id="c26" width="50px" height="30px"></textbox><space></space>
+	<textbox id="c27" width="50px" height="30px"></textbox>
+	<textbox id="c28" width="50px" height="30px"></textbox>
+	<textbox id="c29" width="50px" height="30px"></textbox>
+	</hbox>
+	<separator></separator>
+	<separator></separator>
+	<hbox>
+	
+	<textbox id="d1" width="50px" height="30px" ></textbox> 
+	<textbox id="d2" width="50px" height="30px" ></textbox>
+	<textbox id="d3" width="50px" height="30px"></textbox><space></space>
+	<textbox id="d4" width="50px" height="30px"></textbox>
+	<textbox id="d5" width="50px" height="30px"></textbox> 
+	<textbox id="d6" width="50px" height="30px"></textbox><space></space>
+	<textbox id="d7" width="50px" height="30px"></textbox>
+	<textbox id="d8" width="50px" height="30px"></textbox>
+	<textbox id="d9" width="50px" height="30px"></textbox><space></space>
+	</hbox>
+	<hbox>
+	<textbox id="d11" width="50px" height="30px"></textbox> 
+	<textbox id="d12" width="50px" height="30px"></textbox>
+	<textbox id="d13" width="50px" height="30px"></textbox><space></space>
+	<textbox id="d14" width="50px" height="30px"></textbox>
+	<textbox id="d15" width="50px" height="30px"></textbox> 
+	<textbox id="d16" width="50px" height="30px"></textbox><space></space>
+	<textbox id="d17" width="50px" height="30px"></textbox>
+	<textbox id="d18" width="50px" height="30px"></textbox>
+	<textbox id="d19" width="50px" height="30px"></textbox><space></space>
+	</hbox>
+	<hbox>
+	<textbox id="d21" width="50px" height="30px"></textbox> 
+	<textbox id="d22" width="50px" height="30px"></textbox>
+	<textbox id="d23" width="50px" height="30px"></textbox><space></space>
+	<textbox id="d24" width="50px" height="30px"></textbox>
+	<textbox id="d25" width="50px" height="30px"></textbox> 
+	<textbox id="d26" width="50px" height="30px"></textbox><space></space>
+	<textbox id="d27" width="50px" height="30px"></textbox>
+	<textbox id="d28" width="50px" height="30px"></textbox>
+	<textbox id="d29" width="50px" height="30px"></textbox>
+	</hbox>
+	<button id="checkButton">submit Button</button>
+	
+	<button id="start">start</button>
+	</window>
+	</zk>
